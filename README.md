@@ -27,6 +27,8 @@ The scripts:
 **xmlretriver.py** - this script allows you to query the asp.net server to gather the data you need. 
 After getting the data the script saves a .csv file locally that you can use with the **app.py** script. 
 
+XML parsing thanks to [Perl](https://stackoverflow.com/users/6792743/perl) and the quick reply **[to this question](https://stackoverflow.com/questions/67718571/webservice-query-to-pandas-dataframe/67718824#67718824)** on StackOverflow
+
 **app.py** - reads the csv file and plots the map 
 
 **An API with the ICNF dataset will be made available soon**
